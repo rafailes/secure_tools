@@ -46,7 +46,8 @@ while True:
                     f_sortie.write(b)
                     i = i +1
                     time.sleep(2)
-        print("[*]file was encrypted")
+        print("[*]file was decrypted")
+        time.sleep(2)
     def chiffrement():
         f = open("password_backup.txt", "a+")
         enter = input("enter the file to encrypt with extension without extension expamle (test.txt = test): ")
